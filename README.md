@@ -49,7 +49,7 @@ Figure -02 HALF Subtractor
    
 
 **Program:**
-Half-Adder
+**Half-Adder**
 ~~~
 module Halfadder(a,b,sum,carry);
 input a,b;
@@ -58,7 +58,7 @@ assign sum= (a ^ b);
 assign carry= ( a & b);
 endmodule
 ~~~
-Half-Subtractor
+**Half-Subtractor**
 ~~~
 module Halfsubtractor(a,b,difference,borrow);
 input a,b;
