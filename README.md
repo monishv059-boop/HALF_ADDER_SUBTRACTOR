@@ -49,8 +49,8 @@ Figure -02 HALF Subtractor
    
 
 **Program:**
-**Half-Adder**
 ~~~
+**Half-Adder**
 module Halfadder(a,b,sum,carry);
 input a,b;
 output sum,carry;
