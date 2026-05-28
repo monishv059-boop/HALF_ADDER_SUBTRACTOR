@@ -46,6 +46,8 @@ Figure -02 HALF Subtractor
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 
 5.	For different input combinations generate the timing diagram.
+   
+
 **Program:**
 Half-Adder
 ~~~
