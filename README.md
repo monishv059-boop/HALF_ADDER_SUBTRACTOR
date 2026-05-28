@@ -47,16 +47,43 @@ Figure -02 HALF Subtractor
 
 5.	For different input combinations generate the timing diagram.
 **Program:**
+Half-Adder
+~~~
+module Halfadder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= (a ^ b);
+assign carry= ( a & b);
+endmodule
+~~~
+Half-Subtractor
+~~~
+module Halfsubtractor(a,b,difference,borrow);
+input a,b;
+output difference,borrow;
+assign difference= (a ^ b);
+assign borrow= ( ~a & b);
+endmodule
+~~~
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by:MONISHV
+RegisterNumber:*212225220066
 
 **RTL Schematic**
+Half-Adder
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/24d8c803-c3e5-4e73-ba28-33d74f29c3f5" />
+
+Half-Subtractor
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/8b8dde31-3c53-4b3f-9c61-423ba21e76b2" />
 
 **Output/TIMING Waveform**
+Half-Adder:
+<img width="1919" height="1198" alt="image" src="https://github.com/user-attachments/assets/1d6a3c6b-1fca-46e3-9870-a5c94c6179e4" />
+
+Half-Subtractor:
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/f8d0b5f8-373b-42d4-b7c1-d123fcba193f" />
 
 **Result:**
-<img width="1920" height="1080" alt="exe3(1)" src="https://github.com/user-attachments/assets/3c17fa2b-5615-4c86-a509-4292dd04c78e" />
-<img width="1920" height="1080" alt="exe3(2)" src="https://github.com/user-attachments/assets/259a44da-cac2-42c9-b5b4-50969576a8ff" />
-<img width="1920" height="1080" alt="exe3(3)" src="https://github.com/user-attachments/assets/372bb708-738c-4153-ab5c-b44b6d5e1c20" />
+Thus the a half adder and half subtractor circuit is designed and its truth table is verified in Quartus using Verilog programming .
